@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jobs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/gradient"
+        android:id="@+id/r1">
+
+        <TextView
+            android:id="@+id/jh1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Government Schemes"
+            android:textSize="35dp"
+            android:textColor="@color/dark_green"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/j1"
+            android:layout_below="@+id/jh1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" * Integrated Child Development Scheme :-"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ji1"
+            android:layout_below="@+id/j1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objectives :-
+To improve the nutritional and Health status of pre-school children in the age- group of 0-6 years;
+To lay the foundation of proper psychological development of the child;
+To reduce the incidence of mortality, morbidity, malnutrition and school drop-out;
+To achieve effective coordination of policy and implementation amongst the various departments to promote child development; and
+To enhance the capability of the mother to look after the normal health and nutritional needs of the child through proper nutrition and health education.
+
+Services:-
+
+
+Supplementary Nutrition.
+Health Check-up.
+Immunization.
+Referral Services.
+Early Childhood Care and Pre-school Education.
+Nutrition and Health Education."
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/j2"
+            android:layout_below="@id/ji1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" * Improving Infant Young Child feeding :-"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ji2"
+            android:layout_below="@+id/j2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Malnutrition, poor maternal and adolescent nutrition, gender discrimination are major problems which require immediate attention and addressed to as every fourth infant born in India has Low Birth Weight  every second child is malnourished, reflecting inadequate caring practices related to health, hygiene, infant and young child feeding, care of girls and women.ng inadequate caring practices related to health, hygiene, infant and young child feeding, care of girls and women.According to NFHS-III, in Haryana breastfeeding within one hour was initiated by 22.3% percent of infants and only 17%% infants of 0-3 months are exclusively breastfed. Breastfeeding is a critical entry point for ensuring children’s rights to grow and develop to their full potential.d develop to their full potential.In a study conducted by IBFAN, it has been revealed that universal exclusive breast feeding for the first six months is the single most effective child survival intervention – it reduces under –5 mortality by 13%. Further, complementary feeding alongwith breast feeding upto 2 years prevents deaths by 6%.with breast feeding upto 2 years prevents deaths by 6%.Position of optimal infant and young child feeding practices is crucial for preventing malnutrition, infant mortality and for promoting integrated early child development for which the scheme for Improving Infant and Young Child Feeding has been sanctioned in the year 2005-06 by the State Govt."
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/j3"
+            android:layout_below="@id/ji2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" * Apki Beti Hamari Beti:-"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ji3"
+            android:layout_below="@+id/j3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aapki Beti Hamari Beti is a Haryana State Government Scheme in which a sum of Rs 21000 is invested with Life Insurance Corporation LIC in the name of 1st Girl child of SC/BPL families and 2nd child of family belonging to any caste. On attaining 18 years of age, the girl child will be paid a tentativeWith effect from 24.08.2015 third girl child born in families belonging to any caste were also covered"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/j4"
+            android:layout_below="@id/ji3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" * Integrated Child Protection Scheme :-"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ji4"
+            android:layout_below="@+id/j4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrated Child Protection Scheme (ICPS) is a centrally sponsored umbrella scheme under which various schemes for children in need of care and protection, and children in conflict with law are covered. The programme is being implementing through Haryana State Child Protection Society (HSCPS). The children in need of care and protection are being provided Institutional as well as Non Institutional Care under the scheme. For providing non Institutional Care State Adoption Resource Agency (SARA) has been set up at State level. At the district level the District Child Protection Unit (DCPU) and District Child Protection Committee under the chairmanship of Deputy Commissioner has been constituted. The Integrated Child Protection Scheme (ICPS) is mainly an instrument to implement the provisions of J.J. Act, 2000 which has been amended as Juvenile Justice Act, 2015 and came into force w.e.f. 15.01.20106. The State has created a Juvenile Justice Fund for providing facilities to the juveniles. Child Welfare Committees (CWC) and Juvenile Justice Board (JBB) have been set up in all the district for the effective implementation of Juvenile Justice (Care Protection of Children) Act 2015"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/j5"
+            android:layout_below="@id/ji4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" * Poshan Abhiyan:-"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ji5"
+            android:layout_below="@+id/j5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poshan Abhiyaan was launched by Hon’ble Prime Minister on 8th March, 2018 in Jhunjhunu district of Rajasthan. The focus of Abhiyaan is to lay emphasis on nutritional status of adolescent girls, pregnant women, lactating mothers and children from 0-6 years age. The programme, through use of technology, convergence and community involvement with a targeted approach strives to reduce the level of stunning, under-nutrition, Anemia and low birth weight in children, as also focus on adolescent girls, pregnant women and lactating mothers, thus holistically addressing malnutrition.
+The Abhiyaan is being implemented in all districts of Haryana. Nuh and Panipat districts were selected for Phase-I. For Phase-II, 10 districts, namely Kaithal, Karnal, Kurukshetra, Bhiwani, Yamuna Nagar, Gurugram, Palwal, Rohtak, Sirsa and Sonipat were selected. Remaining districts are covered in the Phase III.."
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/j6"
+            android:layout_below="@id/ji5"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" * Harihar Scheme:-"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/ji6"
+            android:layout_below="@+id/j6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Government of Haryana initiated state level “HARIHAR” (Homeless, Abandoned and Surrendered Children Rehabilitation Initiative Haryana) Policy which is aimed at providing employment, educational and financial benefits to abandoned and surrendered children who have completed the age of 18 years from the Child Care Institutions of the State.."
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

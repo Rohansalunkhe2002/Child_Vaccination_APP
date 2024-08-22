@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fcentersActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:id="@+id/center1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satara :- Shree Seva hospital Ajntyatara fort road Godoli, Satara city Contact:- 7942768604"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/center2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center1"
+            android:text="Satara :- Satara :- Datta Balrugnalya  satara city Contact:- 7942768604"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center2"
+            android:text="Satara :- Shree Kamakshi Multispeciality Hospital,satara city.Contact:- 7947145240"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center3"
+            android:text="Satara :- Yashwant Neuro Hospital , Satara city .Contact:- 7974424759"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center4"
+            android:text="Satara :- Patil Hospital Pvt Ltd Koregaon , Satara city.
+            Contact:- 9423032755/02163-222333"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center5"
+            android:text="Satara :- Lahoti Children Hospital , karad city. Contact:- 7947427138"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center6"
+            android:text="Karad :- Utkarsha Maternity children Hospital, Karad city.
+
+            Contact:- 7947137469"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center7"
+            android:text="Karad :- Phaltan :- Dr.Gawade Children Hospital.Contact:- 7947067761"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center8"
+            android:text="Baramati :- Chirayu  children Hospital Jalochi , Baramati city.Contact:- 7947128764"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center9"
+            android:text="Baramati :- Baramati :- Mehta Hospital, Baramati city.Contact:- 7947314858"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+</ScrollView>

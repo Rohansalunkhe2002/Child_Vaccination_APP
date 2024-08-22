@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VcentersActivity"
+    android:background="@color/light_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/gradient">
+        <TextView
+            android:id="@+id/center0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Government Hospitals :- "
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/center1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/center0"
+            android:text="Satara :- Civil Hospital, pune. Contact:- 7942768604"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center1"
+            android:text="Satara :-Aryangla Hospital, Satara.
+             Contact:- 7942768604"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center2"
+            android:text="Private Hospital :-"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center3"
+            android:text="Chirayu Child Care and Research Center, Satara. Contact:- 7947145240"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center4"
+            android:text="Sanjeevan Hospital, Satara .
+            Contact:- 7974424759"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center5"
+            android:text="Shree Seva Hospital, Satara .
+            Contact:- 7942768604"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center6"
+            android:text="Yash Children Hospital, Satara.
+            Contact:- 7947427138"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center7"
+            android:text="Kil-Bil Children's Hospital, Satara.
+            Contact:- 7947137469"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center8"
+            android:text="Datta Children Hospital, Satara.
+            Contact:- 7942768604"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/center10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center9"
+            android:text="Yash Children's Hospital, Satara.
+            Contact:- 9089786756"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/center11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/center10"
+            android:text="Yash Children's Hospital, Satara.
+            Contact:- 9089786756"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"/>
+    </RelativeLayout>
+
+</ScrollView>

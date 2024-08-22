@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity"
+    android:background="@drawable/bcl">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/gradient">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_feedback_head"
+            android:layout_marginTop="30dp"
+            android:text="Give feedback"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:gravity="center_horizontal"
+            android:background="@drawable/border"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_feedback_email"
+            android:text="Email*"
+            android:textColor="#000"
+            android:layout_marginTop="50dp"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:padding="6dp"
+            android:layout_below="@+id/textView_feedback_head"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_feedback_email"
+            android:layout_below="@+id/textView_feedback_email"
+            android:hint="Enter  email "
+            android:textColor="#000"
+            android:inputType="textEmailAddress"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_feedback_msg"
+            android:text="Feedback"
+            android:textColor="#000"
+            android:layout_marginTop="50dp"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:padding="6dp"
+            android:layout_below="@+id/editText_feedback_email"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView_show_hide_pwd1"
+            android:background="@drawable/ic_feedback"
+            android:layout_below="@id/textView_feedback_msg"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/editText_feedback_msg"
+            android:layout_below="@+id/textView_feedback_msg"
+            android:layout_marginStart="30dp"
+            android:hint="Enter  Feedbak"
+            android:textColor="#000"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:background="@drawable/border"
+            android:layout_marginLeft="30dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/feedback_button"
+            android:layout_below="@+id/textView_feedback_msg"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:background="@color/red"/>
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
